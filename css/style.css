@@ -1,0 +1,313 @@
+/************ TABLE OF CONTENTS ***************
+1. Fonts
+2. Reset
+3. Global
+4. Main Header / Header Style One / Header Style Two / Header Style Three
+5. Main Slider
+6. About Section
+7. Fact Counter
+8. Services Section one / section two /
+9. Full width Section One
+10. Project Section
+11. Engenieer Section / Engenieer Section Two
+12. Testimonial Section / Testimonial Style Two
+13. News Section / Style Two
+14. Main Footer / Footer Style Two / Style Three
+15. Welcome Section
+16. Project Section Two
+17. Call Back Section
+18. Clients Carousel Section
+19. Counter Section
+20. News Carousel Section
+21. Services Carousel Section
+22. News Mixitup Section
+23. Shop Item
+24. Contact Form
+**********************************************/
+
+ /*** 
+ ====================================================================
+ Reset
+====================================================================
+***/
+:root{
+  font-size: 13px;
+};
+* {
+ margin:0px;
+ padding:0px;
+ border:none;
+ outline:none;
+ font-family: 'Montserrat', sans-serif;
+}
+
+ /*** 
+ ====================================================================
+ Global Settings
+====================================================================
+***/
+.bg-portfolio{
+  background: #c5c4c2;
+}
+.font{
+  font-size: 4vw;
+}
+.font-pb{
+  font-size: 2vw;
+}
+.font-p{
+  font-size: 1vw;
+}
+.font-b{
+  font-size: 1.2vw;
+}
+
+.text-coloricon{
+  color: orange;
+}
+.s {
+        margin: 20px;
+        -webkit-transition: color 2s; /* For Safari 3.0 to 6.0 */
+        transition: color 1s; /* For modern browsers */
+    }
+    .s:hover {
+        color: gray;
+    }
+.navt {
+    border-bottom: 1px solid transparent;
+}
+.navt:hover {
+    border-bottom: 1px solid orange;
+    transition-timing-function: ease;
+    transition: 0.5s;
+}
+.theme-color{
+  background-color: #064c99;
+}
+.theme-text{
+  color: #064c99;
+}
+.f-12{
+  font-size: 12px;
+}
+.f-14{
+  font-size: 14px;
+}
+.f-16{
+  font-size: 16px;
+}
+.f-20{
+  font-size: 20px;
+}
+.f-24{
+  font-size: 24px;
+}
+.f-28{
+  font-size: 28px;
+}
+.f-45 {
+    font-size: 5vw;
+}
+.service-icon{
+  font-size: 2em;
+}
+.text-margin{
+  margin-left:6%;
+  margin-top: 5%;
+}
+.nav-header{
+  text-transform: uppercase;
+   
+}
+.bg-con{
+  background-color: #fafafa;
+}
+.bg-conn{
+  background-color: #5771ce;
+}
+.text-m{
+  margin-top: -184px;
+  text-align: center;
+}
+.services-item:before {
+    width: 43%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    content: "";
+    background: #fabd6f;
+    background: -moz-linear-gradient(left, #fabd6f 0%, #e13c3b 100%);
+    background: -webkit-linear-gradient(left, #fabd6f 0%, #e13c3b 100%);
+    background: linear-gradient(to right, #fabd6f 0%, #e13c3b 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fabd6f', endColorstr='#e13c3b',GradientType=1 );
+}
+#owl-demoind .itemind img{
+  display: block;
+  width: 100%;
+  height: 500;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 14px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.mr-header{
+  margin-right: -91px;
+}
+.fa-bars{
+  color: gray;
+}
+ /*** 
+ ====================================================================
+ Main Header
+====================================================================
+***/
+
+/*
+==============================================
+ About Section
+===============================================
+*/
+.bg-image{
+  background: rgba(0,0,0,0.5) url("../images/2 (2).jpg");
+  width: 100%;
+  height: 250px;
+  background-size: auto;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+  color: #fff !important;
+}
+.middle-banner{
+  background: rgba(0,0,0,0.5) url("../images/4.jpeg");
+  height: 250px;
+}
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.text-about{
+ border: 1px solid #e8e8e8;
+ border-radius: 5px;
+ padding: 19px 39px 16px 34px;
+ position: relative;
+ font-size: 14px;
+ line-height: 33px;
+ margin-left: 29px;
+ margin-right: 86px;
+}
+.text-about:before {
+  content: "";
+  position: absolute;
+  text-align: center;
+  top: 9px;
+  left: 2px;
+  width: 27px;
+  height: 22px;
+  background: url(../images/icon-qoute.png) no-repeat;
+  background-size: 26px auto;
+}
+.profile{
+  position: relative;;
+  margin: -13px;
+}
+.profile,.img{
+  width: 65px;
+  height: 65px;
+}
+.text-res{
+  font-size:3vw;
+}
+.res-img {
+    width: 216px;
+    height: auto;
+}
+.img-about{
+  width: 70%;
+
+}
+.card{
+  border:none !important;
+}
+
+
+
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+     .img-about{
+  margin-bottom: 30px;
+}
+
+.font-pb{
+  font-size: 30px;
+}
+.s{
+  margin: 0px;
+}
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    .img-about{
+  margin-bottom: 30px;
+}
+
+.font-pb{
+  font-size: 15px;
+}
+.s{
+  margin: 0px;
+}
+
+ 
+}
+
+
+/*** 
+ ====================================================================
+ Main Footer
+====================================================================
+***/
+
+.bfooter{
+  background-color: #424242;
+}
+/*** 
+ ====================================================================
+ Contact Form
+====================================================================
+***/
+.imgcon{
+  height: 450px;
+}
+.vl {
+  border-left: 6px solid green;
+  height: 500px;
+}
