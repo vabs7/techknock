@@ -188,7 +188,9 @@
 					<li class="nav-item align-middle">
 						
 							<div class=" mr-3">
-								<p class=" text-white"> &copy; 2015 - <?php echo date("Y"); ?> <a href="https://www.techknock.in/" class="text-white">Techknock Digital Services</a></p>
+								<p class=" text-white"> &copy; 2015 - <span id="copyright">
+        <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+    </span> <a href="https://www.techknock.in/" class="text-white">Techknock Digital Services</a></p>
 							</div>
 						
 					</li>
